@@ -80,7 +80,7 @@ const Services = () => {
           <h1 className="text-center text-xl font-bold text-white p-6">
             Salud y Bienestar para tu Mascota
           </h1>
-          <div className="flex flex-col md:flex-row justify-center gap-6 flex-wrap md:w-[930px] mx-auto">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6 flex-wrap md:w-[930px] mx-auto">
             <article className="bg-[#282623] w-full max-w-[350px] min-h-[180px] flex flex-col items-center p-3">
               <img src={dog} className="w-9 h-9" alt="" />
               <p className="text-white font-bold">
