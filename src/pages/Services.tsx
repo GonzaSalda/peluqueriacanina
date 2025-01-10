@@ -21,11 +21,6 @@ const Services = () => {
               />
             </div>
 
-            <div>
-              <h1 className="text-center font-semibold text-[#0D6980]">
-                Precios
-              </h1>
-            </div>
             <table className="table-auto bg-white shadow-md rounded-lg">
               <thead className="bg-gray-100">
                 <tr>
@@ -71,7 +66,6 @@ const Services = () => {
                   <td className="px-4 py-2 text-gray-800 font-bold">$15000</td>
                 </tr>
               </tbody>
-
             </table>
             <div>
               <p className="text-sm font-normal text-[#939393] pt-4 ">
@@ -82,12 +76,12 @@ const Services = () => {
         </div>
 
         {/* Servicios de veterinaria */}
-        <div className="bg-[#201E1C] h-[100vh] p-5">
+        <div className="bg-[#201E1C] h-auto p-5">
           <h1 className="text-center text-xl font-bold text-white p-6">
             Salud y Bienestar para tu Mascota
           </h1>
-          <div className="flex justify-center gap-6 flex-wrap w-[930px] mx-auto">
-            <article className="bg-[#282623] w-full max-w-[400px] min-h-[180px] flex flex-col items-center p-3">
+          <div className="flex flex-col md:flex-row justify-center gap-6 flex-wrap w-[930px] mx-auto">
+            <article className="bg-[#282623] w-full max-w-[350px] min-h-[180px] flex flex-col items-center p-3">
               <img src={dog} className="w-9 h-9" alt="" />
               <p className="text-white font-bold">
                 Consultas generales y revisión de salud
@@ -99,7 +93,7 @@ const Services = () => {
                 nos aseguramos de que tu peludo esté en óptimas condiciones.
               </p>
             </article>
-            <article className="bg-[#282623] w-full max-w-[400px]  min-h-[180px] flex flex-col items-center p-3">
+            <article className="bg-[#282623] w-full max-w-[350px] min-h-[180px] flex flex-col items-center p-3">
               <img src={dog} className="w-9 h-9" alt="" />
               <p className="text-white font-bold">Vacunas y desparacitación</p>
               <p className="text-[#bababa] text-center">
@@ -109,7 +103,7 @@ const Services = () => {
                 comunes y parásitos.
               </p>
             </article>
-            <article className="bg-[#282623] w-full max-w-[400px]  min-h-[180px] flex flex-col items-center p-3">
+            <article className="bg-[#282623] w-full max-w-[350px] min-h-[180px] flex flex-col items-center p-3">
               <img src={dog} className="w-9 h-9" alt="" />
 
               <p className="text-white font-bold">
@@ -123,7 +117,6 @@ const Services = () => {
             </article>
           </div>
         </div>
-     
       </div>
     </>
   );
