@@ -1,5 +1,4 @@
 import dog from "../assets/dog.svg";
-import dog5 from "../assets/perro5.jpg";
 import dog3 from "../assets/perro3.png";
 
 const Services = () => {
@@ -7,10 +6,10 @@ const Services = () => {
     <>
       <div className="pt-[80px]">
         {/* Servicios de peluqueria */}
-        <div className="border-t border-gray-400 pb-12 h-auto">
+        <div className=" pb-12 h-auto">
           <div>
             <h1 className="text-center text-xl font-bold text-[#0D6980] p-6">
-              Corte y Estilo Profesional para Tu Mascota
+              Nuestros servicios
             </h1>
           </div>
           <div className="flex flex-col gap-y-3 justify-center items-center">
@@ -47,12 +46,36 @@ const Services = () => {
                   </td>
                   <td className="px-4 py-2 text-gray-800 font-bold">$8000</td>
                 </tr>
+                <tr className="border-t">
+                  <td className="px-4 py-4 text-[#bababa] font-bold">
+                    Consulta veterinaria
+                  </td>
+                  <td className="px-4 py-2 text-gray-800 font-bold">$2000</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="px-4 py-4 text-[#bababa] font-bold">
+                    Vacunas
+                  </td>
+                  <td className="px-4 py-2 text-gray-800 font-bold">$4900</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="px-4 py-4 text-[#bababa] font-bold">
+                    Desparacitación
+                  </td>
+                  <td className="px-4 py-2 text-gray-800 font-bold">$5000</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="px-4 py-4 text-[#bababa] font-bold">
+                    Profilaxis Dental
+                  </td>
+                  <td className="px-4 py-2 text-gray-800 font-bold">$15000</td>
+                </tr>
               </tbody>
+
             </table>
             <div>
-              <p className="text-sm font-bold text-[#bababa] pt-4 ">
-                *EL BAÑO INCLUYE CORTES DE UÑAS, LIMPIEZA DE OÍDOS Y VACIADO DE
-                GLÁNDULAS PERIANALES!
+              <p className="text-sm font-normal text-[#939393] pt-4 ">
+                *EL BAÑO INCLUYE CORTES DE UÑAS Y LIMPIEZA DE OÍDOS.
               </p>
             </div>
           </div>
@@ -100,10 +123,7 @@ const Services = () => {
             </article>
           </div>
         </div>
-        {/* Img */}
-        <div>
-          <img className="w-full h-[50vh]  object-cover" src={dog5} alt="" />
-        </div>
+     
       </div>
     </>
   );

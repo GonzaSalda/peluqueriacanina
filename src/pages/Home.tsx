@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <main className="h-auto pt-[80px]">
-        <div className="border-t border-gray-400">
+        <div>
           <div className="flex flex-col lg:flex-row items-center justify-between rounded-lg  p-8 space-y-8 lg:space-y-0">
             {/* Text */}
             <div className="lg:max-w-[660px] space-y-6">
@@ -35,7 +35,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </main>
     </>
   );
