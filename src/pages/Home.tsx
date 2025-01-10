@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import banner from "../assets/nick-brice.jpg";
 const Home = () => {
   return (
@@ -17,12 +18,12 @@ const Home = () => {
                 sienta bien. Desde peluquería canina hasta atención veterinaria,
                 tenemos todo lo que necesitas para consentir a tu mascota.
               </p>
-              <a
-                href="#servicios"
+              <Link
+                to="/servicios"
                 className="inline-block bg-[#0D6980] text-white font-semibold py-2 px-4 rounded-md hover:bg-[#0b5d6a] transition-colors"
               >
                 Descubre nuestros servicios
-              </a>
+              </Link>
             </div>
             {/* Img */}
             <div className="flex-1 mx-auto max-w-[180px] lg:max-w-[300px]">
@@ -35,7 +36,6 @@ const Home = () => {
           </div>
         </div>
         <div></div>
-       
       </main>
     </>
   );

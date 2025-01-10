@@ -8,12 +8,18 @@ const Navbar = () => {
           <div className="relative w-full flex h-16 items-center justify-between">
             <div className="flex gap-x-2">
               <p>Logo</p>
-              <h1 className="text-[#0D6980] font-semibold">Peluqueria Canina</h1>
+              <h1 className="text-[#0D6980] font-semibold">
+                Peluqueria Canina
+              </h1>
             </div>
 
-            <div className="flex gap-x-2">
-              <Link className="text-[#0D6980] font-medium" to="/">Inicio</Link>
-              <Link className="text-[#0D6980] font-medium" to="/products">Servicios</Link>
+            <div className="flex gap-x-6">
+              <Link className="text-[#0D6980] font-medium" to="/">
+                Inicio
+              </Link>
+              <Link className="text-[#0D6980] font-medium" to={"/servicios"}>
+                Servicios
+              </Link>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import dog from "../assets/dog.svg";
 import dog5 from "../assets/perro5.jpg";
 import dog3 from "../assets/perro3.png";
 
-const Servicios = () => {
+const Services = () => {
   return (
     <>
       <div className="pt-[80px]">
@@ -23,7 +23,9 @@ const Servicios = () => {
             </div>
 
             <div>
-              <h1 className="text-center font-semibold text-[#0D6980]">Precios</h1>
+              <h1 className="text-center font-semibold text-[#0D6980]">
+                Precios
+              </h1>
             </div>
             <table className="table-auto bg-white shadow-md rounded-lg">
               <thead className="bg-gray-100">
@@ -40,15 +42,19 @@ const Servicios = () => {
                   <td className="px-4 py-2 text-gray-800 font-bold">$6000</td>
                 </tr>
                 <tr className="border-t">
-                  <td className="px-4 py-4 text-[#bababa] font-bold">Baño y Corte</td>
+                  <td className="px-4 py-4 text-[#bababa] font-bold">
+                    Baño y Corte
+                  </td>
                   <td className="px-4 py-2 text-gray-800 font-bold">$8000</td>
-                </tr>
-                <tr className="border-t">
-                  <td className="px-4 py-4 text-[#bababa] font-bold">Recorte de uñas</td>
-                  <td className="px-4 py-2 text-gray-800 font-bold">$4000</td>
                 </tr>
               </tbody>
             </table>
+            <div>
+              <p className="text-sm font-bold text-[#bababa] pt-4 ">
+                *EL BAÑO INCLUYE CORTES DE UÑAS, LIMPIEZA DE OÍDOS Y VACIADO DE
+                GLÁNDULAS PERIANALES!
+              </p>
+            </div>
           </div>
         </div>
 
@@ -103,4 +109,4 @@ const Servicios = () => {
   );
 };
 
-export default Servicios;
+export default Services;
